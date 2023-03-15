@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/pet1butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="clip_horizontal|center|right"
+            android:insetRight="10dp"
+            android:onClick="onClickButton1"
+            android:text="@string/butt_info" />
+
+        <TextView
+            android:id="@+id/name_pet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top|fill_vertical"
+            android:layout_margin="34dp"
+            android:fontFamily="monospace"
+            android:gravity="center|right"
+            android:text="Мурка"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/pet1image"
+            android:layout_width="143dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.096"
+            app:srcCompat="@drawable/pet1image" />
+
+        <TextView
+            android:id="@+id/more_pet1"
+            android:layout_width="125dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center|top|fill_vertical"
+            android:layout_margin="50dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Лагідна кішка"
+            android:textSize="16sp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="188dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/pet2butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:insetRight="10dp"
+            android:onClick="onClickButton2"
+            android:text="@string/butt_info" />
+
+        <ImageView
+            android:id="@+id/pet2image"
+            android:layout_width="143dp"
+            android:layout_height="120dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.096"
+            app:srcCompat="@drawable/pet2image" />
+
+        <TextView
+            android:id="@+id/name_pet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top|fill_vertical"
+            android:layout_margin="34dp"
+            android:fontFamily="monospace"
+            android:gravity="center|right"
+            android:text="Гавчик"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/more_pet2"
+            android:layout_width="125dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center|top|fill_vertical"
+            android:layout_margin="50dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Грайливий пес"
+            android:textSize="16sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view3"
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="328dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/pet3butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:insetRight="10dp"
+            android:onClick="onClickButton3"
+            android:text="@string/butt_info" />
+
+
+        <TextView
+            android:id="@+id/name_pet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top|fill_vertical"
+            android:layout_margin="34dp"
+            android:fontFamily="monospace"
+            android:gravity="center|right"
+            android:text="Ріо"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/more_pet3"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center|top|fill_vertical"
+            android:layout_margin="50dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Говіркий папуга"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/pet3image"
+            android:layout_width="143dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.096"
+            app:srcCompat="@drawable/pet3image" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
